@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+jar {
+    baseName = 'the_computational_beauty_of_nature'
+    version =  '0.1.0'
+}
+
+mainClassName = 'cbn.CBNApplication'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
